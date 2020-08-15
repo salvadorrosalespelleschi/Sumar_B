@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumarB", "SumarB\SumarB.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniTestSumar", "UniTestSumar\UniTestSumar.csproj", "{CA27E1DB-BF77-40C1-8BA1-EC3ECD04BF96}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniTestMultiplicar", "UniTestMultiplicar\UniTestMultiplicar.csproj", "{B55D2AC6-978D-43ED-B3F3-77C4195201E5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{CA27E1DB-BF77-40C1-8BA1-EC3ECD04BF96}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA27E1DB-BF77-40C1-8BA1-EC3ECD04BF96}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA27E1DB-BF77-40C1-8BA1-EC3ECD04BF96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B55D2AC6-978D-43ED-B3F3-77C4195201E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B55D2AC6-978D-43ED-B3F3-77C4195201E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B55D2AC6-978D-43ED-B3F3-77C4195201E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B55D2AC6-978D-43ED-B3F3-77C4195201E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
