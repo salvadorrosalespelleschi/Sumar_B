@@ -13,6 +13,7 @@ namespace SumarB.Controllers
     public class PersonsController : ControllerBase
     {
         [HttpGet]
+        [HttpPost]
         public Person listar() {
             Person person = new Person {PersonID=1,Name="Salvador Rosales" };
             return person;
