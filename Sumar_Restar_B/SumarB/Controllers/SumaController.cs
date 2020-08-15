@@ -18,6 +18,7 @@ namespace SumarB.Controllers
         {   
             return a * b;
         }
+        
         [HttpPost]
         [Route("Add")]
         public int Add2([FromHeader]int a, [FromHeader] int b)
