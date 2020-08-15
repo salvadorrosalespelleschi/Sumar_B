@@ -5,18 +5,18 @@ using SumarB.Controllers;
 namespace UniTestMultiplicar
 {
     [TestClass]
-    public class UnitTest1
+    public class Multiplicacion
     {
         [TestMethod]
         public void MultiplyTest1()
         {
             //arrange
             SumaController multiplicarController = new SumaController();
-            int a = 2;
-            int b = 3;
-            int expected = 6;
+            float a = 2;
+            float b = 3;
+            float expected = 6;
             //act
-            int resultado = multiplicarController.Mul(a, b);
+            float resultado = multiplicarController.Mul(a, b);
             //assert
             Assert.AreEqual(expected, resultado);
 

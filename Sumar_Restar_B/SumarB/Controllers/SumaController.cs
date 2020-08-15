@@ -9,26 +9,47 @@ namespace SumarB.Controllers
     {
         [HttpGet]
         [Route("Add")]
-        public int Add(int a, int b){
+        public float Add(float a, float b){
             return a + b;       
         }
         [HttpGet]
         [Route("Multiply")]
-        public int Mul(int a, int b)
+        public float Mul(float a, float b)
         {   
             return a * b;
         }
-        
+        [HttpGet]
+        [Route("Division")]
+        public float Div(float a, float b) {
+            return a / b;
+        }
+        [HttpGet]
+        [Route("Substraction")]
+        public float Sub(float a, float b) {
+            return a - b;
+        }
         [HttpPost]
         [Route("Add")]
-        public int Add2([FromHeader]int a, [FromHeader] int b)
+        public float Add2([FromHeader] float a, [FromHeader] float b)
         {
             return a + b;
         }
         [HttpPost]
         [Route("Multiply")]
-        public int Mul2([FromHeader] int a, [FromHeader] int b) {
+        public float Mul2([FromHeader] float a, [FromHeader] float b) {
             return a * b;
+        }
+        [HttpPost]
+        [Route("Division")]
+        public float Div2([FromHeader] float a, [FromHeader] float b)
+        {
+            return a / b;
+        }
+        [HttpPost]
+        [Route("Substraction")]
+        public float Sub2([FromHeader] float a, [FromHeader] float b)
+        {
+            return a - b;
         }
     }
 }

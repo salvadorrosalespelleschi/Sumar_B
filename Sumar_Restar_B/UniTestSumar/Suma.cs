@@ -6,18 +6,18 @@ using System.ComponentModel;
 namespace UniTestSumar
 {
     [TestClass]
-    public class UnitTest1
+    public class Suma
     {
         [TestMethod]
         public void AddTest1()
         {
             //arrange
             SumaController sumaController = new SumaController();
-            int a = 2;
-            int b = 3;
-            int expected = 5;
+            float a = 2;
+            float b = 3;
+            float expected = 5;
             //act
-            int resultado = sumaController.Add(a, b);
+            float resultado = sumaController.Add(a, b);
             //assert
             Assert.AreEqual(expected, resultado);
         }
